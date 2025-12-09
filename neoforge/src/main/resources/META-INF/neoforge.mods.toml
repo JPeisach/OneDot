@@ -1,15 +1,15 @@
 modLoader = "javafml"
 loaderVersion = "[10,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/JPeisach/OneDot/issues"
+license = "GNU General Public License v3.0"
 
 [[mods]]
 modId = "onedot"
 version = "${version}"
 displayName = "OneDot"
-authors = "Me!"
+authors = "Joshua Peisach (JPeisach / ItzSwirlz)"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Restores the "1." to the start of the Minecraft Client version number.
 '''
 #logoFile = ""
 
@@ -30,7 +30,7 @@ side = "BOTH"
 [[dependencies.onedot]]
 modId = "architectury"
 type = "required"
-versionRange = "[18.0.6,)"
+versionRange = "[18.0.8,)"
 ordering = "AFTER"
 side = "BOTH"
 
