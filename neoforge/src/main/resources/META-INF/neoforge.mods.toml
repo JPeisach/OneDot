@@ -11,7 +11,7 @@ authors = "Joshua Peisach (JPeisach / ItzSwirlz)"
 description = '''
 Restores the "1." to the start of the Minecraft Client version number.
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.onedot]]
 modId = "neoforge"

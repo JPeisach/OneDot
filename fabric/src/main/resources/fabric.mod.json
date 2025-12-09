@@ -12,7 +12,7 @@
     "sources": "https://github.com/JPeisach/OneDot"
   },
   "license": "GNU General Public License v3.0",
-  "icon": "assets/onedot/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
