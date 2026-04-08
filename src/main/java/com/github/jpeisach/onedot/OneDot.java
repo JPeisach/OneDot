@@ -1,12 +1,17 @@
 package com.github.jpeisach.onedot;
 
-import net.fabricmc.api.ModInitializer;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
 
-public class OneDot implements ModInitializer {
-	public static final String MOD_ID = "onedot";
+// The value here should match an entry in the META-INF/neoforge.mods.toml file
+@Mod(OneDot.MODID)
+public class OneDot {
 
-	@Override
-	public void onInitialize() {
-		// nothing needed
-	}
+    // Define mod id in a common place for everything to reference
+    public static final String MODID = "onedot";
+
+    public OneDot(IEventBus modEventBus, ModContainer modContainer) {
+        // Not needed
+    }
 }
